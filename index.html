@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Biggies Place</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+    <body>
+    <div class="hero">
+    <div class="nav-bar">
+    <div class="nav-logo">
+        <img src="office.png">
+    </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About us</li></a>
+            <a href="#"><li>Book Now</li></a>
+        </ul>
+            <button type="button" class="btn">Register</button>
+            <button type="button" class="btn">Sign up</button>
+    </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div> 
+        <div class="banner-title">
+            <h1>Food <span>doesen't have a religion,</span><br> It's a religion.</h1>
+        <button type="button" class="btn">Explore</button>
+        </div>
+        <div class="vertical-bar">
+        <div class="search-icon">
+            <i class="fa fa-list"></i>
+            <i class="fa fa-search"></i>
+            </div>
+        <div class="social-icons">
+            <a href="www.facebook.com/agholorimeon"><i class="fa fa-facebook-official"></i></a>
+            <a href="www.twitter.com/Cmeon_G"><i class="fa fa-instagram"></i></a>
+            <a href="www.instagram.com.com/Cmeon_G"><i class="fa fa-twitter"></i></a>
+            <a href="www.linkedin.com/gbenoba"><i class="fa fa-pinterest"></i></a>
+            </div>    
+         </div>
+        <div>
+        <div class="notifications">
+            <div class="contents">
+            <small>Order now and get free Delivery at your door Step. You can also get a 10% off the price if you order.</small>
+                <p><a href="www,twitter.com/Cmeon_G">PREV</a>   <a href="wwww.instagram.com/gbenoba3">NEXT</a></p>
+            </div>
+            <div class="notifications-img">
+            <img src="img3.jpg">
+            </div>
+        </div>
+        </div>
+        
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+        show.style.right ="0"
+        }
+        function closeMenu(){
+        show.style.right ="-200px"
+        }
+        </script>
+    </body>
+</html>
